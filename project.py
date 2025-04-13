@@ -80,7 +80,7 @@ def Module_1_1():
     radius = float(input("Enter the radius: "))
     volume = (4 / 3) * pi * radius ** 3
     print("The volume of the sphere is:", volume)
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     
     if choice == 0: 
         Module_1()  
@@ -97,7 +97,7 @@ def Module_1_2():
     C = float(input("Enter the Celsius degree: "))
     F = (num1 / num2) * C + num3
     print("The equivalent of Celsius degree to Fahrenheit is:", F)
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0: 
         Module_1()  
     elif choice == 1:
@@ -111,7 +111,7 @@ def Module_1_3():
     input_amount = float(input("Enter the dollar amount: "))
     total = input_amount * D
     print("The equivalent in dollar to peso is:", total)
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_1()
     elif choice == 1:
@@ -125,7 +125,7 @@ def Module_1_4():
     inch = float(input("Enter The inch: "))
     total = inch * cm
     print("The equivalent of inch to cm is:", total)
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_1()
     elif choice == 1:
@@ -141,7 +141,7 @@ def Module_1_5():
     x = y
     y = s
     print("x =", x, "\n y =", y)
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_1()
     elif choice == 1:
@@ -155,7 +155,7 @@ def Module_1_6():
     r = float(input("Enter the radius: "))
     c = 2 * pi * r
     print(f"The circumference of the circle is {c}")
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_1()
     elif choice == 1:
@@ -171,7 +171,7 @@ def Module_1_7():
     y = x - y
     x = x - y
     print("x =", x, ", y =", y)
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_1()
     elif choice == 1:
@@ -186,7 +186,7 @@ def Module_1_8():
     S = float(input("Enter the expected salvage value of the item: "))
     D = (P - S) / Y
     print("The yearly depreciation is:", D)
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_1()
     elif choice == 1:
@@ -202,7 +202,7 @@ def Module_1_9():
     I = float(input("Enter the inventory carrying cost per unit: "))
     EOQ = ((num1 * R * S) / I) ** 0.5
     print("The Economic Order Quantity is:", EOQ)
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_1()
     elif choice == 1:
@@ -216,7 +216,7 @@ def Module_1_10():
     r = float(input("Enter the radius: "))
     A = pi * r * r
     print(f"The area of a circle with radius {r} is: {A}")
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_1()
     elif choice == 1:
@@ -270,7 +270,7 @@ def Module_2_1():
         print("vowels")
     else:
         print("consonant")
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_2()
     elif choice == 1:
@@ -310,7 +310,7 @@ def Module_2_2():
         print(f"december {days}, {year}")
     else:
         print("Invalid month")
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_2()
     elif choice == 1:
@@ -327,7 +327,7 @@ def Module_2_3():
         print("Water")
     else:
         print("Steam")
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_2()
     elif choice == 1:
@@ -348,7 +348,7 @@ def Module_2_4():
         print("Military Aircraft")
     elif kh < 500 and m < 20:
         print("Its a bird")
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_2()
     elif choice == 1:
@@ -358,7 +358,7 @@ def Module_2_4():
 
 def Module_2_5():
     os.system('cls')
-    letter = input("Choose letter B, C, D, F\nEnter The letter: ").lower()
+    letter = input("Choose letter B, C, D, F\nEnter The le [0] Back / [1] Continuetter: ").lower()
 
     if letter == 'b':
         print("Battleship")
@@ -368,7 +368,7 @@ def Module_2_5():
         print("Destroyer")
     elif letter == 'f':
         print("Frigate")
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_2()
     elif choice == 1:
@@ -390,7 +390,7 @@ def Module_2_6():
         print("Disaster")
     else:
         print("Catastrophe")
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_2()
     elif choice == 1:
@@ -497,7 +497,7 @@ def Module_2_7():
         elif ones == 9:
             print("nine")
 
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_2()
     elif choice == 1:
@@ -582,7 +582,7 @@ def Module_2_8():
         elif ones == 0:
             print()
 
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_2()
     elif choice == 1:
@@ -621,7 +621,7 @@ def Module_2_9():
     else:
         print("Invalid Input Please Try Again")
 
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_2()
     elif choice == 1:
@@ -652,7 +652,7 @@ def Module_2_10():
     else:
         print("out of range")
     
-    choice = int(input("press [1] Continue [0] Back: "))
+    choice = int(input("choice [1] Continue [0] Back: "))
     if choice == 0:
         Module_2()
     elif choice == 1:
@@ -705,7 +705,7 @@ def Module_3_1():
     for i in range(1, n + 1):
         print(f"{i} * {i} = {(i * i)}")
 
-    choice = int(input("\nEnter choice: "))
+    choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
     if choice == 0: 
         Module_3()
     elif choice == 1:
@@ -722,7 +722,7 @@ def Module_3_2():
         x += 1
         y -= 1
 
-    choice = int(input("\nEnter choice: "))
+    choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
     if choice == 0: 
         Module_3()
     elif choice == 1:
@@ -739,7 +739,7 @@ def Module_3_3():
         x += 1
         y -= 1
 
-    choice = int(input("\nEnter choice: "))
+    choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
     if choice == 0: 
         Module_3()
     elif choice == 1:
@@ -758,7 +758,7 @@ def Module_3_4():
             print(" * ", end="")
     print(" =", total)
 
-    choice = int(input("\nEnter choice: "))
+    choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
     if choice == 0: 
         Module_3()
     elif choice == 1:
@@ -778,7 +778,7 @@ def Module_3_5():
         y = t
         print(x)
 
-    choice = int(input("\nEnter choice: "))
+    choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
     if choice == 0: 
         Module_3()
     elif choice == 1:
@@ -798,7 +798,7 @@ def Module_3_6():
             print("*", end=" ")
     print("=", total)
 
-    choice = int(input("\nEnter choice: "))
+    choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
     if choice == 0: 
         Module_3()
     elif choice == 1:
@@ -817,7 +817,7 @@ def Module_3_7():
             print(" + ", end="")
     print(" =", total)
 
-    choice = int(input("\nEnter choice: "))
+    choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
     if choice == 0: 
         Module_3()
     elif choice == 1:
@@ -837,7 +837,7 @@ def Module_3_8():
         total += i  
     print(" =", total)
 
-    choice = int(input("\nEnter choice: "))
+    choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
     if choice == 0: 
         Module_3()
     elif choice == 1:
@@ -852,7 +852,7 @@ def Module_3_9():
     for i in range(1, n + 1):
         print(n * "*")
 
-    choice = int(input("\nEnter choice: "))
+    choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
     if choice == 0: 
         Module_3()
     elif choice == 1:
@@ -872,7 +872,7 @@ def Module_3_10():
             print(" + ", end="")
     print(" =", total)
 
-    choice = int(input("\nEnter choice: "))
+    choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
     if choice == 0: 
         Module_3()
     elif choice == 1:
@@ -881,6 +881,7 @@ def Module_3_10():
         print(f"This number {choice} is not recognized")
 
 def Activity():
+    os.system('cls')
     print("[1] Python First-Program")
     print("[2] Pink-Form")
     print("[3] GWA")
@@ -905,16 +906,154 @@ def Activity():
         MainProject()
         
 def FirstProgram():
+    os.system('cls')
     print("Hello World")
 def PinkForm():
-    print()
+    os.system('cls')
+    print("                                              Immaculate Conception I-College of Arts and Technology                                            ")
+    print("┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐")
+    print("│ STUDENT NAME         NAME (Last, Given, Middle)                        TERM                             SCHOOL YEAR                          │")
+    print("│ 2024-0050-IC         GREGORIO, FRANCO, MIRARZA                           1                                2024-2025                          │")
+    print("├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤")
+    print("│ COURSE                       SECTION                                  YEAR LEVEL                        ACADEMIC STATUS                      │")
+    print("│   BSIS                       BSIS 1-2                                     1                             IRREGULAR                            │")
+    print("├──────────────────────────────────────────────────────────────────┬─────────────────────────────────────────┬─────────────────────────────────┤")
+    print("│    CLASS IDSUB NO.CODE     TITLE                            UNITS│ TOTAL:                                  │MODE OF PAYMENT                  │")
+    print("│                                                                  │                                         │                                 │")
+    print("│    BSIS 1-2   C-EN1  PURPOSIVE COMMUNICATION                    3│ Registration Fee                1,000.00│ FULL PAYMENT                    │")
+    print("│                                                                  │                                         │                                 │")
+    print("│    BSIS 1-2   C-HUM ART APPRECIATION                            3│ Total Tuition Fee              10,500.00│ 1st Payment            15,900.00│")
+    print("│                                                                  │                                         │                                 │")
+    print("│    BSIS 1-2   CC2    COMPUTER PROGRAMMING 1 (FUND OF            3│ Stud. Dev/Lab/ComSys/Etc            0.00│ 2nd Payment                 0.00│")
+    print("│                                                                  │                                         │                                 │")
+    print("│    BSIS 1-2   TH 1   SALVATION HISTORY                          3│ Total Misc. Fee                 4,400.00│ 3rd Payment                 0.00│")
+    print("│                                                                  │                                         │                                 │")
+    print("│    BSIS 1-2   NSTP 1 CWSTS 1                                    3│ Other Fee                           0.00│ 4th Payment                 0.00│")
+    print("│                                                                  │                                         │                                 │")
+    print("│                                                                  │ AMOUNT DUE                     15,900.00│ 5th Payment                 0.00│")
+    print("│                                                                  │                                         │                                 │")
+    print("│                                                                  │ Discount Fee                      00.00 │ 6th Payment                 0.00│")
+    print("│                                                                  │                                         │                                 │")
+    print("│                                                                  │ Other Discount Fee                0.00  │ TOTAL:                          │")
+    print("│                                                                  │                                         │                                 │")
+    print("│                                                                  │ TOTAL DISCOUNTS                   0.00  │                                 │")
+    print("│                                                                  │                                         │                                 │")
+    print("│                                                                  │ Special Class                     0.00  │                                 │")
+    print("│                                                                  │                                         │                                 │")
+    print("│                                                                  │ NET AMOUNT DUE                 15,900.00│                                 │")
+    print("│                                                                  │                                         │                                 │")
+    print("│                                                                  ├─────────────────────────────────────────┼─────────────────────────────────┤")
+    print("│                                                                  │                                         │                                 │")
+    print("│                                                                  │ CONTRACT:                               │STUDENT'S NAME & SIGNATURE       │")
+    print("│                                                                  │                                         │                                 │")
+    print("│                                                                  │  Upon admission at the ICICAT, I hereby │                                 │")
+    print("│                                                                  │promise to obey all the existing rules   │                                 │")
+    print("│                                                                  │                                         │                                 │")
+    print("│                                                                  │and regulation established by the        │                                 │")
+    print("├───────────────────────────────────────┬──────────────────────────┤                                         │                                 │")
+    print("│ DATE                                  │ TOTAL                    │authorities of this                      │     KEYLYN S.D. ZANO            │")
+    print("│       7/09/24                         │                 15       │                                         │                                 │")
+    print("|                                       │                          │institution                              │           Assessed By           │")
+    print("└───────────────────────────────────────┴──────────────────────────┴─────────────────────────────────────────┴─────────────────────────────────┘")
+
 def GWA():
-    print()
+    os.system('cls')
+    CC3 = float(input("Enter CC3 Grade: "))
+    NSTP2 = float(input("Enter NSTP2 Grade: "))
+    CNS1 = float(input("Enter CNS1 Grade: "))
+    CSS2 = float(input("Enter CSS2 Grade: "))
+    
+    GWAGrandes = (CC3 + NSTP2 + CNS1 + CSS2) / 4
+    print(GWAGrandes)
+    choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
+    if choice == 0: 
+        Activity()
+    elif choice == 1:
+        GWA()
+    else:
+        print(f"This number {choice} is not recognized")
+
 def SimpleCalculator():
-    print()
+    os.system('cls')
+    while True:
+        print("Choose Operator")
+        print("[1]: ADDITION")
+        print("[2]: SUBTRACTION")
+        print("[3]: MULTIPLICATION")
+        print("[4]: DIVISION")
+        print("[0]: Back")
+        choice = int(input("Choose Operator: "))
+        
+        if choice in [1,2,3,4]:
+            num1 = float(input("Enter Number 1: "))
+            num2 = float(input("Enter Number 2: "))
+            num3 = float(input("Enter Number 3: "))
+            num4 = float(input("Enter Number 4: "))
+            
+            if choice == 1:
+                print("Total: ", (num1 + num2 + num3 + num4))
+
+            elif choice == 2:
+                print("Total: ", (num1 - num2 - num3 - num4))
+
+            elif choice == 3:
+                print("Total: ", (num1 * num2 * num3 * num4))
+
+            elif choice == 4:
+                 if num2 == 0:
+                    print("Division by 0 is not calculated")
+                 else:
+                     print("Total: ", (num1 / num2 / num3 / num4))
+            elif choice == 0:
+                Activity()
+        else:
+            print("please enter the available number")
+        choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
+        if choice == 0: 
+            Activity()
+        elif choice == 1:
+            SimpleCalculator()
+        else:
+            print(f"This number {choice} is not recognized")   
+        
+        
 def NumberType():
-    print()
+    os.system('cls')
+    n = int(input("Enter the number:"))
+    
+    if n > 0:
+        print("positive")
+    elif n < 0:
+        print("negative")
+    else:
+        print("Zero")
+    
+    choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
+    if choice == 0: 
+        Activity()
+    elif choice == 1:
+        SimpleCalculator()
+    else:
+        print(f"This number {choice} is not recognized")   
 def GenderSeperation():
-    print()  
+    os.system('cls')
+    boys = []
+    girls = []
+    n = int(input("Enter the number of characters: "))
+    for i in range(1, n + 1):
+        name = input(f"Enter name #{i}: ").strip().lower()
+        if name[0] in ["a", "b", "c"]:
+            boys.append(name)
+        else:
+            girls.append(name)
+        print("Girls: ", girls)
+        print("Boys: ", boys)
+    choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
+    if choice == 0: 
+        Activity()
+    elif choice == 1:
+        GenderSeperation()
+    else:
+        print(f"This number {choice} is not recognized")   
         
 MainProject()
