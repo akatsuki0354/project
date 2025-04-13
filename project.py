@@ -1,12 +1,29 @@
 import os
 
 def MainProject():
+  os.system('cls')
   while True:
-        print("[1] Module")
-        print("[2] Activit")
-        print("[3] SMS")
-        print("[0] Exit")
-        choice = int(input("Enter the number 0-3: "))
+        os.system('cls')
+        print("█████████████████████████████████████████████████████████████████████████████████████████████████")
+        print("██                                                                                             ██")
+        print("██                     ██████╗ ██████╗  ██████╗      ██╗███████╗ ██████╗████████╗              ██")
+        print("██                     ██╔══██╗██╔══██╗██╔═══██╗     ██║██╔════╝██╔════╝╚══██╔══╝              ██")
+        print("██                     ██████╔╝██████╔╝██║   ██║     ██║█████╗  ██║        ██║                 ██")
+        print("██                     ██╔═══╝ ██╔══██╗██║   ██║██   ██║██╔══╝  ██║        ██║                 ██")
+        print("██                     ██║     ██║  ██║╚██████╔╝╚█████╔╝███████╗╚██████╗   ██║                 ██")
+        print("██                     ╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚════╝ ╚══════╝ ╚═════╝   ╚═╝                 ██")
+        print("██                                                                                             ██")
+        print("██                            ██████╗ ██████╗██████╗                                           ██")
+        print("██                           ██╔════╝██╔════╝╚════██╗          [1] Module                      ██")
+        print("██                           ██║     ██║      █████╔╝          [2] Activit                     ██")
+        print("██                           ██║     ██║      ╚═══██╗          [3] SMS                         ██")
+        print("██                           ╚██████╗╚██████╗██████╔╝          [0] Exit                        ██")
+        print("██                            ╚═════╝ ╚═════╝╚═════╝                                           ██")
+        print("██                                                                                             ██")
+        print("█████████████████████████████████████████████████████████████████████████████████████████████████")
+        print("██                                                                                             ██")
+        choice = int(input("██                                      Enter the number 0-3:                                  ██\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b"))
+        print("██                                                                                             ██")
         if choice == 1:
             Module()
         elif choice  == 2:
@@ -19,11 +36,29 @@ def MainProject():
     
 def Module():
         os.system('cls')
-        print("[1] Module 1 ")
-        print("[2] Module 2")
-        print("[3] Module 3")
-        print("[0] Back")
-        choice = int(input("choose the number: "))
+        print("█████████████████████████████████████████████████████████████████████████████████████████████████")
+        print("██                                                                                             ██")
+        print("██                   ███╗   ███╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗███████╗                  ██")
+        print("██                   ████╗ ████║██╔══██╗██╔════╝██║  ██║██║████╗  ██║██╔════╝                  ██")
+        print("██                   ██╔████╔██║███████║██║     ███████║██║██╔██╗ ██║█████╗                    ██")
+        print("██                   ██║╚██╔╝██║██╔══██║██║     ██╔══██║██║██║╚██╗██║██╔══╝                    ██")
+        print("██                   ██║ ╚═╝ ██║██║  ██║╚██████╗██║  ██║██║██║ ╚████║███████╗                  ██")
+        print("██                   ╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚══════╝                  ██")
+        print("██                                                                                             ██")
+        print("██                 ██████╗ ██████╗  ██████╗ ██████╗ ██╗     ███████╗███╗   ███╗                ██")
+        print("██                 ██╔══██╗██╔══██╗██╔═══██╗██╔══██╗██║     ██╔════╝████╗ ████║                ██")
+        print("██                 ██████╔╝██████╔╝██║   ██║██████╔╝██║     █████╗  ██╔████╔██║                ██")
+        print("██                 ██╔═══╝ ██╔══██╗██║   ██║██╔══██╗██║     ██╔══╝  ██║╚██╔╝██║                ██")
+        print("██                 ██║     ██║  ██║╚██████╔╝██████╔╝███████╗███████╗██║ ╚═╝ ██║                ██")
+        print("██                 ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚═╝     ╚═╝                ██")
+        print("██                                                                                             ██")
+        print("██                                       [1] Module 1                                          ██")
+        print("██                                       [2] Module 2                                          ██")
+        print("██                                       [3] Module 3                                          ██")
+        print("██                                         [0] Back                                            ██")
+        print("██                                                                                             ██")
+        print("█████████████████████████████████████████████████████████████████████████████████████████████████ \n")
+        choice = int(input("                                    choose the number: "))
         if choice == 0:
             MainProject()
         elif choice == 1:
@@ -37,18 +72,25 @@ def Module():
             Module()
 def Module_1():
     os.system('cls')
-    print("[1] Module 1.1 Volume of Sphere")
-    print("[2] Module 1.2 Temp Conversion")
-    print("[3] Module 1.3 Peso-Dollar Conversion")
-    print("[4] Module 1.4 Measurement Conversion")
-    print("[5] Module 1.5 Two Variables")
-    print("[6] Module 1.6 Circumfence of a circle")
-    print("[7] Module 1.7 Two Variables declaration")
-    print("[8] Module 1.8 Puchase Price")
-    print("[9] Module 1.9 Economic order quantity")
-    print("[10] Module 1.10 radius of a circle")
-    print("[0] Back")
-    choice = int(input("choose the number: "))
+    print("█████████████████████████████████████████████████████████████████████████████████████████████████")
+    print("██                                                                                             ██")
+    print("██                 ███╗   ███╗ ██████╗ ██████╗ ██╗   ██╗██╗     ███████╗     ██╗               ██")
+    print("██                 ████╗ ████║██╔═══██╗██╔══██╗██║   ██║██║     ██╔════╝    ███║               ██")
+    print("██                 ██╔████╔██║██║   ██║██║  ██║██║   ██║██║     █████╗      ╚██║               ██")
+    print("██                 ██║╚██╔╝██║██║   ██║██║  ██║██║   ██║██║     ██╔══╝       ██║               ██")
+    print("██                 ██║ ╚═╝ ██║╚██████╔╝██████╔╝╚██████╔╝███████╗███████╗     ██║               ██")
+    print("██                 ╚═╝     ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝╚══════╝     ╚═╝               ██")
+    print("██                                                                                             ██")
+    print("██           [1] Module 1.1 Volume of Sphere         [6] Module 1.6 Circumference              ██")
+    print("██           [2] Module 1.2 Temp Conversion          [7] Module 1.7 Two Vars Declared          ██")
+    print("██           [3] Module 1.3 Peso-Dollar Conversion   [8] Module 1.8 Purchase Price             ██")
+    print("██           [4] Module 1.4 Measurement Conversion   [9] Module 1.9 Economic Order Qty         ██")
+    print("██           [5] Module 1.5 Two Variables           [10] Module 1.10 Radius of Circle          ██")
+    print("██                                                                                             ██")
+    print("██                                           [0] Back                                          ██")
+    print("██                                                                                             ██")
+    print("█████████████████████████████████████████████████████████████████████████████████████████████████ \n")
+    choice = int(input("                                       choose the number: "))
     while choice != 0:
         if choice == 1:
             Module_1_1()
@@ -76,10 +118,26 @@ def Module_1():
             
 def Module_1_1():
     os.system('cls')
+    print("#################################################################################################")
+    print("#                                                                                               #")
+    print("#        ##     ##  #######  ########  ##     ## ##       ########       ##          ##         #")
+    print("#        ###   ### ##     ## ##     ## ##     ## ##       ##           ####        ####         #")
+    print("#        #### #### ##     ## ##     ## ##     ## ##       ##             ##          ##         #")
+    print("#        ## ### ## ##     ## ##     ## ##     ## ##       ######         ##          ##         #")
+    print("#        ##     ## ##     ## ##     ## ##     ## ##       ##             ##          ##         #")
+    print("#        ##     ## ##     ## ##     ## ##     ## ##       ##             ##   ###    ##         #")
+    print("#        ##     ##  #######  ########   #######  ######## ########     ###### ###  ######       #")
+    print("#                                                                                               #")
+    print("#                                          Volume of Sphere                                     #")
+    print("#                                                                                               #")
+    print("#################################################################################################")
+    print("#                                                                                               #")
     pi = 3.1416
-    radius = float(input("Enter the radius: "))
+    radius = int(input("#                                          Enter the radius:                                    #\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b"))
+    print("#                                                                                               #")
+    print("################################################################################################# \n")
     volume = (4 / 3) * pi * radius ** 3
-    print("The volume of the sphere is:", volume)
+    print("                                   The volume of the sphere is:", volume, "\n")
     choice = int(input("choice [1] Continue [0] Back: "))
     
     if choice == 0: 
@@ -91,10 +149,23 @@ def Module_1_1():
 
 def Module_1_2():
     os.system('cls')
+    print("#################################################################################################")
+    print("#                                                                                               #")
+    print("#     ##     ##  #######  ########  ##     ## ##       ########       ##        #######         #")
+    print("#     ###   ### ##     ## ##     ## ##     ## ##       ##           ####       ##     ##        #")
+    print("#     #### #### ##     ## ##     ## ##     ## ##       ##             ##              ##        #")
+    print("#     ## ### ## ##     ## ##     ## ##     ## ##       ######         ##        #######         #")
+    print("#     ##     ## ##     ## ##     ## ##     ## ##       ##             ##       ##               #")
+    print("#     ##     ## ##     ## ##     ## ##     ## ##       ##             ##   ### ##               #")
+    print("#     ##     ##  #######  ########   #######  ######## ########     ###### ### #########        #")
+    print("#                                                                                               #")
+    print("#                                          Temp Conversion                                      #")
+    print("#                                                                                               #")
+    print("################################################################################################# \n")
     num1 = 9
     num2 = 5
     num3 = 32
-    C = float(input("Enter the Celsius degree: "))
+    C = float(input("                                     Enter the Celsius degree: "))
     F = (num1 / num2) * C + num3
     print("The equivalent of Celsius degree to Fahrenheit is:", F)
     choice = int(input("choice [1] Continue [0] Back: "))
@@ -1055,5 +1126,43 @@ def GenderSeperation():
         GenderSeperation()
     else:
         print(f"This number {choice} is not recognized")   
+
+def SMS():
+    os.system('cls')
+    students = []
+    while True:
+        print("[1] Add Student")
+        print("[2] View Student")
+        print("[3] search Student")
+        print("[0] Exit")
+        choice = int(input("Enter the number: "))
         
+        if choice == 1:
+            os.system('cls')
+            name = input("Enter name: ").upper()
+            id = input("Enter ID: ").upper()
+            students.append({'id': id, 'name': name})
+            print(" STUDENT ADDED SUCCESSFULLY !!! ")
+            with open("test.txt","a") as file:
+                    file.write(f"Name: {name}, ID: {id}\n")
+        elif choice == 2:
+                os.system('cls')
+                for student in students:
+                    print(f"Name: {student['name']}, id: {student['id']} ")
+                else:
+                    print("student not found")
+        elif choice == 3:
+            os.system('cls')
+            id = input("Enter id: ")
+            for student in students:
+                if student['id'] == id:
+                    print(f"Student found. Name: {student['id']}, Name: {student['name']}")
+                    break
+                else:
+                    print("not found!!!....")
+        elif choice == 0:
+            MainProject()
+        else:
+            print("please enter the available number......")
+    
 MainProject()

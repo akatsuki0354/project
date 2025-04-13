@@ -1,2 +1,5 @@
-Name: franco, ID: <built-in function id>
-Name: franco, ID: 12
+Name: <built-in method upper of str object at 0x00000232DE8DBDE0>, ID: <built-in method upper of str object at 0x00000232DE8F3DB0>
+Name: FRANCO, ID: 2024-0050-IC
+Name: FRANCO, ID: 2024-0050-IC
+Name: FRANCO, ID: 31
+Name: FRANCO, ID: 21
