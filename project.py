@@ -51,7 +51,7 @@ def MainProject():
             print(f"This number {choice} is not recognized please enter the available number...")
             print("\033[35C", end="")
             input("                    Press Enter to continue...")
-#animation skull
+
 def animate_skull():
     frames = [
         """
@@ -431,7 +431,6 @@ def animate_skull():
             frame_lines = frame.strip("\n").split("\n")
             for line in frame_lines:
                 print(f"                    ██                                 {line.ljust(60)}██")
-           
             remaining_lines = 17 - len(frame_lines)
             print("                    █████████████████████████████████████████████████████████████████████████████████████████████████")
             print("                    ██                                                                                             ██")
@@ -3037,7 +3036,7 @@ def GWA():
         print("                    #################################################################################################")
         print("\033[F\033[F\033[F", end="")
         print("\033[31C", end="")
-        print(f"GWA = {GWAGrades:.2f}")
+        print(f"GWA = {GWAGrades:.2f}\033[0m ")
         
         print("\033[B\033[B", end="")
         print("\033[60C", end="")
@@ -3132,7 +3131,7 @@ def SimpleCalculator():
             print("                    #  Result:                                                                                      #")
             print("                    #                                                                                               #")
             print("                    #################################################################################################\033[0m")
-            print("\033[F\033[F\033[F\033[F", end="")
+            print("\033[F\033[F\033[F", end="")
             print("\033[23C", end="")
             print(f"{operation} Result: {result:.2f}")
         else:
@@ -3179,14 +3178,12 @@ def NumberType():
         print("                    #  Result:                                                                                      #")
         print("                    #                                                                                               #")
         print("                    #################################################################################################\n")
-        print("\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F", end="")  # Move to "Enter the number:"
-        print("\033[41C", end="")  # Align cursor
+        print("\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F", end="") 
+        print("\033[41C", end="")  
         n = int(input())
 
-
-
         print("\033[B\033[B\033[B", end="")
-        print("\033[31C", end="")  # Align result
+        print("\033[31C", end="") 
         if n > 0:
             print(f"{n} is a positive number.\n\033[0m")
         elif n < 0:
@@ -3196,7 +3193,6 @@ def NumberType():
 
         print("\n\033[50C", end="") 
         choice = int(input("Enter choice [0] Back / [1] Continue: "))
-        choice = int(input("\nEnter choice [0] Back / [1] Continue: "))
         if choice == 1:
             continue
         elif choice > 1:
@@ -3296,8 +3292,8 @@ def SMS():
         print("                    #  Enter your choice:                                                                           #")
         print("                    #                                                                                               #")
         print("                    #################################################################################################\033[0m")
-        print("\033[F\033[F\033[F", end="")  # Move to input line
-        print("\033[42C", end="")  # Move cursor to aligned input spot
+        print("\033[F\033[F\033[F", end="") 
+        print("\033[42C", end="") 
 
         try:
             choice = int(input())
@@ -3316,7 +3312,7 @@ def SMS():
             print("                    #  Enter student ID:                                                                            #")
             print("                    #                                                                                               #")
             print("                    #################################################################################################\033[0m")
-            print("\033[F\033[F\033[F\033[F", end="")  # Go to ID input
+            print("\033[F\033[F\033[F\033[F", end="") 
             print("\033[43C", end=""); name = input().upper()
             print("\033[41C", end=""); student_id = input().upper()
             students.append({'id': student_id, 'name': name})
